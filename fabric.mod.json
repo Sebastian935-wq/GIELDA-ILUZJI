@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "gielda_iluzji",
+  "version": "${version}",
+  "name": "Giełda Iluzji",
+  "description": "Fałszywy rynek eventówek w stylu Anarchia.GG: iluzje, Lupa Demaskatora, Odłamki Prawdy i fałszywe eventy w świecie.",
+  "authors": ["Anarchia Modding"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.anarchia.gieldailuzji.GieldaIluzjiMod"],
+    "client": ["pl.anarchia.gieldailuzji.client.GieldaIluzjiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
